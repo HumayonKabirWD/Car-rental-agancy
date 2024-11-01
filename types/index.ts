@@ -6,3 +6,8 @@ export interface CoistomBtnProps {
     handleClick?:MouseEventHandler<HTMLButtonElement>,
     btnType?:"button" | "submit"
 }
+
+export interface SearchManufectureProps {
+    manufacturer: string,
+    setManufacturer: (manufacturer : string) => void
+}
